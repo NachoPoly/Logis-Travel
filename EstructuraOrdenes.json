@@ -1,0 +1,52 @@
+{
+  "empresa": "Logis Travel",
+  "descripcion": "Estructura de datos para gestionar órdenes de viaje",
+  "ordenes": [
+    {
+      "idOrden": "ORD-001",
+      "fecha": "2026-11-11",
+      "estado": "pendiente",
+      "cliente": {
+        "idCliente": "CLI-001",
+        "nombre": "Juan Pérez",
+        "correo": "juan.perez@example.com"
+      },
+      "destino": {
+        "ciudad": "Punta Arenas",
+        "pais": "Chile"
+      },
+      "servicio": {
+        "tipo": "paquete_turistico",
+        "descripcion": "Viaje de turismo",
+        "cantidad": 1
+      },
+      "monto": {
+        "valor": 450000,
+        "moneda": "CLP"
+      }
+    },
+    {
+      "idOrden": "ORD-002",
+      "fecha": "2026-11-12",
+      "estado": "confirmada",
+      "cliente": {
+        "idCliente": "CLI-002",
+        "nombre": "María González",
+        "correo": "maria.gonzalez@example.com"
+      },
+      "destino": {
+        "ciudad": "Puerto Montt",
+        "pais": "Chile"
+      },
+      "servicio": {
+        "tipo": "reserva_hotel",
+        "descripcion": "Alojamiento por 3 noches",
+        "cantidad": 1
+      },
+      "monto": {
+        "valor": 210000,
+        "moneda": "CLP"
+      }
+    }
+  ]
+}
