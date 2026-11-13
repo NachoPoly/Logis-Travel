@@ -48,5 +48,6 @@
         "moneda": "CLP"
       }
     }
-  ]
+  ],
+  "version": "1.0"
 }
